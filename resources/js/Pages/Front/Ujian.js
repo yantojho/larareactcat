@@ -184,7 +184,7 @@ export default (props) => {
                                                                 <td key={pil}>
                                                                     <td width="5" style={{ padding: 3 }}></td>
                                                                     <td width="5" style={{ padding: 3 }}>
-                                                                        {pil == soal.jawaban ? ( //cek pilihan sama dengan jawaban
+                                                                        {pil == soal.jawaban ? ( //untuk cek pilihan sama dengan jawaban
                                                                             <a className="btn btn-primary btn-sm btn-block">{huruf[index]}</a>
                                                                         ) : (
                                                                             <a href="#" className="btn btn-outline-primary btn-sm btn-block"
