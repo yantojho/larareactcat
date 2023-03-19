@@ -89,7 +89,7 @@ class AdminNilaiController extends Controller
     public function destroy(Nilai $nilai){
     	$nilai->delete();
 
-    	return Redirect::route('admin.nilai.index')
+    	return Redirect::back()
            ->with(['message'=>'Data berhasil dihapus']);
     }
 }

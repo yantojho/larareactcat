@@ -199,7 +199,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
                           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("td", {
                             colSpan: "4",
                             width: "5",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("strong", {
+                            style: {
+                              padding: 6
+                            },
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h3", {
                               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                                 dangerouslySetInnerHTML: {
                                   __html: soal.soal
@@ -244,7 +247,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
                                 })
                               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("td", {
                                 style: {
-                                  padding: 10
+                                  padding: 6
                                 },
                                 dangerouslySetInnerHTML: {
                                   __html: soal["pilihan_" + pil]
@@ -271,7 +274,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
                             })
                           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("td", {
                             colSpan: "2",
-                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("strong", {
+                            style: {
+                              padding: 6
+                            },
+                            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("h3", {
                               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
                                 dangerouslySetInnerHTML: {
                                   __html: soal.soal
@@ -296,7 +302,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
                                 },
                                 children: pil == soal.jawaban ?
                                 /*#__PURE__*/
-                                //cek pilihan sama dengan jawaban
+                                //untuk cek pilihan sama dengan jawaban
                                 (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("a", {
                                   className: "btn btn-primary btn-sm btn-block",
                                   children: huruf[index]
@@ -316,7 +322,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
                                 })
                               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("td", {
                                 style: {
-                                  padding: 10
+                                  padding: 6
                                 },
                                 dangerouslySetInnerHTML: {
                                   __html: soal["pilihan_" + pil]

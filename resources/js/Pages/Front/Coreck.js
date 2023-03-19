@@ -5,8 +5,9 @@ import { InertiaLink } from '@inertiajs/inertia-react';
 import { MDBDataTable } from 'mdbreact';
 import 'mdbreact/dist/css/mdb.css';
 
-import Layout from './../../Shared/Layout';
+import HasilLayout from './../../Shared/UjianLayout';
 import Dialog from './../../Shared/Dialog';
+  
 
 export default (props) => {
     const soal = props.soal;
@@ -59,7 +60,7 @@ export default (props) => {
     });
 
   return (
-    <Layout>
+    <HasilLayout>
       <Helmet title="Soal" />
       <div className="row">
         <div className="col-lg-12">
@@ -81,6 +82,6 @@ export default (props) => {
           </div>
         </div>
       </div>
-    </Layout>
+    </HasilLayout>
   )
 };

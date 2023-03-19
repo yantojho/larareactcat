@@ -124,10 +124,10 @@ export default (props) => {
                                                     <tr>
                                                         <td><button className="btn btn-primary">{startnumber + index}</button></td>
                                                         
-                                                        <td colSpan="4" width="5"> 
-                                                            <strong>
+                                                        <td colSpan="4" width="5" style={{ padding: 6 }}> 
+                                                            <h3>
                                                                 <div dangerouslySetInnerHTML={{ __html: soal.soal }}></div> 
-                                                            </strong>
+                                                            </h3>
                                                         </td>
                                                     </tr>
                                                     
@@ -155,7 +155,7 @@ export default (props) => {
                                                                         >{huruf[index]}</a>
                                                                     )}
                                                                 </td>
-                                                                <td style={{ padding: 10 }} dangerouslySetInnerHTML={{ __html: soal["pilihan_" + pil] }}></td>
+                                                                <td style={{ padding: 6 }} dangerouslySetInnerHTML={{ __html: soal["pilihan_" + pil] }}></td>
                                                             </td>
                                                         ))}
                                                     </tr>
@@ -171,10 +171,10 @@ export default (props) => {
                                                 <tbody>
                                                     <tr>
                                                         <td><button className="btn btn-primary">{startnumber + 10 + index}</button></td>
-                                                        <td colSpan="2">
-                                                            <strong>
+                                                        <td colSpan="2" style={{ padding: 6 }}>
+                                                            <h3>
                                                                 <div dangerouslySetInnerHTML={{ __html: soal.soal }}></div>
-                                                            </strong>
+                                                            </h3>
                                                         </td>
                                                                 
                                                     </tr>
@@ -201,7 +201,7 @@ export default (props) => {
                                                                             >{huruf[index]}</a>
                                                                         )}
                                                                     </td>
-                                                                    <td style={{ padding: 10 }} dangerouslySetInnerHTML={{ __html: soal["pilihan_" + pil] }}></td>
+                                                                    <td style={{ padding: 6 }} dangerouslySetInnerHTML={{ __html: soal["pilihan_" + pil] }}></td>
                                                                 </td>
                                                             ))}
                                                     </tr>

@@ -22,11 +22,11 @@ export default (props) => {
                         <tbody>
                         <tr><td><b>No. Ujian</b></td><td>: {props.peserta.no_ujian}</td></tr>
                         <tr><td><b>Nama</b></td><td>: {props.peserta.nama_peserta}</td></tr>
-                        <tr><td><b>Nama Sekolah</b></td><td>: {props.peserta.nama_sekolah}</td></tr>
+                        <tr><td><b>Nama Instansi</b></td><td>: {props.peserta.nama_sekolah}</td></tr>
                         <tr><td><b>Kelas</b></td><td>: {props.peserta.kelas}</td></tr>
                         
                         <tr><td><b>Nama Ujian</b></td><td>: {props.ujian.nama_ujian}</td></tr>
-                        <tr><td><b>Nama Mapel</b></td><td>: {props.ujian.nama_mapel}</td></tr>
+                        <tr><td><b>Nama Soal</b></td><td>: {props.ujian.nama_mapel}</td></tr>
                         <tr><td><b>Durasi</b></td><td>: {props.ujian.durasi} menit</td></tr>
                         <tr><td></td><td></td></tr>
                         </tbody>

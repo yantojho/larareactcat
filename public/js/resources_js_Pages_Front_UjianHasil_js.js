@@ -129,25 +129,16 @@ __webpack_require__.r(__webpack_exports__);
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
                         children: "Koreksian "
                       })
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("td", {
-                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
-                        className: "item primary",
-                        onClick: function onClick() {
-                          return Inertia.get(route('koreksi', props.peserta.id_peserta));
-                        },
-                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                          className: "fas fa-eye",
-                          children: "Lihat Jawaban"
-                        })
-                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.InertiaLink, {
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("td", {
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_2__.InertiaLink, {
                         href: route('koreksi', {
-                          id: props.peserta.id,
-                          ujian: props.ujian.id
+                          id: btoa(props.peserta.id),
+                          ujian: btoa(props.ujian.id)
                         }),
                         className: "btn float-right btn-success",
-                        target: "blank",
+                        target: "_blank",
                         children: "Lihat Jawaban"
-                      })]
+                      })
                     })]
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("tr", {

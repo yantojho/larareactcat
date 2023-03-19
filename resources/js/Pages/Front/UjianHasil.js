@@ -69,14 +69,11 @@ export default (props) => {
                       <tr>
                           <td><b>Koreksian </b></td>
                           <td>
-                              <button className="item primary" onClick={()=>Inertia.get(route('koreksi', props.peserta.id_peserta))}>
-                                    <i className="fas fa-eye">Lihat Jawaban</i>
-                              </button> 
                               {/* <InertiaLink href={ route('nilai.view')} className="btn btn-info">
                                   Lihat jawaban
                               </InertiaLink> */}
 
-                                    <InertiaLink href={route('koreksi', { id: props.peserta.id, ujian: props.ujian.id})} className="btn float-right btn-success" target='blank'>
+                                    <InertiaLink href={route('koreksi', { id: btoa(props.peserta.id), ujian: btoa(props.ujian.id)})} className="btn float-right btn-success" target='_blank'>
                                         Lihat Jawaban
                                     </InertiaLink>
 

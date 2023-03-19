@@ -80,7 +80,7 @@ export default (props) => {
               <button className="item primary" onClick={()=>Inertia.get(route('admin.nilai.view', nil.id_peserta))}>
                   <i className="fas fa-eye"></i>
               </button> 
-              <button className="item danger"  onClick={()=>handleDialogOpen(route('admin.nilai.destroy', nil.id_peserta))}> 
+              <button className="item danger"  onClick={()=>handleDialogOpen(route('admin.nilai.destroy', nil.id))}> 
                   <i className="fas fa-trash"></i>
               </button>
             </div>

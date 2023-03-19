@@ -268,8 +268,8 @@ class UjianController extends Controller
             ->leftJoin('peserta','peserta.id','=','jawaban.id_peserta')
             ->select('jawaban.jawaban','soal.*')
             ->where([
-                'jawaban.id_ujian' => $ujian,
-                'jawaban.id_peserta' => $id
+                'jawaban.id_ujian' => base64_decode($ujian),
+                'jawaban.id_peserta' => base64_decode($id)
             ])
             ->orderBy('jawaban.urut')
             ->get();

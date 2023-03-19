@@ -343,7 +343,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("button", {
           className: "item danger",
           onClick: function onClick() {
-            return handleDialogOpen(route('admin.nilai.destroy', nil.id_peserta));
+            return handleDialogOpen(route('admin.nilai.destroy', nil.id));
           },
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("i", {
             className: "fas fa-trash"
